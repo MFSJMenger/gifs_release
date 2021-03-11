@@ -1,0 +1,22 @@
+107,111d106
+< #ifdef GMX_GIFS
+< #include "../shqmmm/gmxgifs.h"
+< #endif
+< 
+< 
+1237,1249c1232
+< 	    
+< #ifdef GMX_GIFS
+< 	    /* Hook for velocity rescaling here. This is after the
+<              * first velocity half-step update (therefore at integer
+<              * time-step) and before enforcing constratints or the
+<              * second half-step. See subsequent calls to:
+<              * update_coords() and update_constraints()
+<             */
+<             if (fr->bQMMM){
+<               float gifs_energy = enerd->term[F_ETOT];
+<               gifs_scale_velocities(gifs_energy, &state->v[0][0], &f[0][0], &mdatoms->invmass[0]);
+<             }
+< #endif
+---
+> 

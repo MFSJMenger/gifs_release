@@ -1,0 +1,26 @@
+43,46d42
+< 
+< #ifdef GMX_GIFS
+<     #include "../shqmmm/gmxgifs.h"
+< #endif
+168,175c164,165
+<     real QMener = 0.0;
+< #ifdef GMX_GIFS
+<     QMener = gifs_do_qm_forces(qm->nrQMatoms, qm->atomicnumberQM, qm->xQM, 
+< 			       mm->nrMMatoms, mm->xMM, mm->MMcharges,
+< 			       f, fshift);
+<     gifs_update_global_idx(&qm->indexQM[0], &mm->indexMM[0]);
+<     return QMener;
+< #endif
+---
+>     real
+>         QMener = 0.0;
+213,214d202
+< #elif defined GMX_GIFS
+< 	    /*Nothing to do*/
+245,246d232
+< #elif defined GMX_GIFS
+< 	/*Nothing to do*/
+791,792d776
+< #elif defined GMX_GIFS
+< 	    /*Nothing to do*/

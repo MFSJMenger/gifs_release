@@ -1,0 +1,4 @@
+48,50d47
+< if(GMX_GIFS)
+<     add_subdirectory(shqmmm)
+< endif()
