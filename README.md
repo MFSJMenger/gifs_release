@@ -11,7 +11,7 @@ To get started:
 * Try some of the examples in the examples folder; run.sh will get each example going.
 
 # Development
-GIFS is developed as a collaboration between the University of Pennsylvania and the University of Groningen. Work in the Netherlands is led by Dr. Maximilian Menger (m.f.s.j.menger@rug.nl) and in the United States by [Dr. Vale Cofer-Shabica](https://vale.science) (valecs@sas.upenn.edu). Please contact us if you find
+GIFS is developed as a collaboration between the University of Pennsylvania and the University of Groningen. Work in the Netherlands is led by Dr. Maximilian Menger (m.f.s.j.menger@rug.nl) and in the United States by [Dr. Vale Cofer-Shabica](https://vale.science) (valecs@sas.upenn.edu).
 
 # Citation
 If you use GIFS, please cite this repository; two papers are in preparation and we will update once they have been submitted.
